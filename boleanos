@@ -1,0 +1,16 @@
+#año biciesto
+year= int(input("Enter a year: "))
+if (year % 4 == 0 and year %100 !=0) or (year %400 ==0):
+    print(f"is a year biciest{year}")
+else: 
+    print(f"is not a year biciest{year}")
+
+#numero dentro un rango
+numero= int(input("Enter a number"))
+rango =10<= numero <=30
+print (rango)
+
+#vocal o cosonate
+letra= input(str("Ingrese una letra"))
+vocal= letra.lower() in "aeiou" #uuper = mayusculas and lower is for minusculas
+print(vocal)
